@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="markers" default="1 2 3 4"/>
+  <param name="markers_string" value="$(arg markers)"/>
+  <param name="file_path" value="$(find simulation)"/>
+  <node pkg="simulation" type="objective2.py"  name="objective2" output="screen"/>
+</launch>

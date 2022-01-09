@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="angle" default="20"/>
+  <param name="ang" value="$(arg angle)"/>
+  <param name="file_path" value="$(find simulation)"/>
+  <node pkg="simulation" type="objective4.py"  name="objective4" output="screen"/>
+</launch>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="file_path" value="$(find simulation)"/>
+  <node pkg="simulation" type="objective8.py"  name="objective8" output="screen"/>
+</launch>
