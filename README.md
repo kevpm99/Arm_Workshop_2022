@@ -1,1 +1,1 @@
-# ERC_2021_simulator
+# Repository for 2022 Inverse Kinematics workshop
